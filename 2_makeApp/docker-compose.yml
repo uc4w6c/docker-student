@@ -1,0 +1,7 @@
+version: "3"
+services:
+    echo:
+        # buildで指定したディレクトリのDockerfileを参照する
+        build: .
+        ports:
+          - 9001:8080
