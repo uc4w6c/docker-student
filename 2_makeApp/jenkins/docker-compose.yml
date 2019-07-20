@@ -13,7 +13,7 @@ services:
   slave01:
     container_name: slave01
     image: jenkinsci/ssh-slave
-    environment:
+    # environment:
       # 本来であれば、以下にjenkins_home/.ssh/id_rsa.pubに指定の公開鍵を指定する
       # 今回は省略
       # - JENKINS_SLAVE_SSH_PUBKEY=ssh-rsa
