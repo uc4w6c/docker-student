@@ -1,0 +1,4 @@
+2_makeApp/jenkins/.password
+2_makeApp/jenkins/jenkins_home 
+3_containerDeploy/swarm-hello/registry-data
+3_containerDeploy/swarm-hello/stack
