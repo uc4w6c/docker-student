@@ -1,4 +1,4 @@
-verssion: "3"
+version: "3"
 services:
   nginx:
     image: gihyodocker/nginx-proxy:latest
@@ -7,10 +7,11 @@ services:
       placement:
         constraints: [node.role != manager]
     environment:
+      SERVICE_PORTS: 80
       BACKEND_HOST: echo_api:8080
     depends_on:
       - api
-    networkds:
+    networks:
       - ch03
   api:
     image: registry:5000/example/echo:latest
