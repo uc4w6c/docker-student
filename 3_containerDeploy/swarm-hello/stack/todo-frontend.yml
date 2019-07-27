@@ -36,7 +36,7 @@ services:
     networks:
       - todoapp
     volumes:
-      - assets:todoweb/.nuxt/dist
+      - assets:/todoweb/.nuxt/dist
 
 networks:
   todoapp:
