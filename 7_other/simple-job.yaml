@@ -21,4 +21,4 @@ spec:
             echo [`date`] ping!
             sleep 10
             echo [`date`] pong!
-    restartPolicy: Never
+      restartPolicy: Never
