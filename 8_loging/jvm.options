@@ -3,7 +3,7 @@
 -XX:+UseConcMarkSweepGC
 -XX:CMSInitiatingOccupancyFraction=75
 -XX:+UseCMSInitiatingOccupancyOnly
--XX:+AlwaysPretouch
+-XX:+AlwaysPreTouch
 -server
 -Xss1m
 -Djava.awt.headless=true
