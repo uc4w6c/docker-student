@@ -54,8 +54,7 @@ spec:
         - mountPath: /data
           name: elasticsearch-config
         - mountPath: /usr/share/elasticsearch/config
-          name: storage 
-                # elasticsearch-config
+          name: elasticsearch-config
       volumes:
       - name: elasticsearch-pvc
         persistentVolumeClaim:
