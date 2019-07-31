@@ -52,7 +52,7 @@ spec:
           name: http
         volumeMounts:
         - mountPath: /data
-          name: elasticsearch-config
+          name: elasticsearch-pvc
         - mountPath: /usr/share/elasticsearch/config
           name: elasticsearch-config
       volumes:
