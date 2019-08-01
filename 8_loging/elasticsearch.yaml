@@ -72,6 +72,8 @@ metadata:
 data:
   elasticsearch.yaml: |-
     http.host: 0.0.0.0
+    # pathをつけるように誤植として指定されていた
+    path.scripts: /tmp/scripts/
 
   log4j2.properties: |-
     status = error
